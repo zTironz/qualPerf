@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Test</title>
+</head>
+<body>
+    <div class="page">
+        <header class="header">
+            <nav class="header__menu">
+                <a class="header__link" href="">Text</a>
+                <a class="header__link" href="">Text</a>
+                <a class="header__link" href="">Text</a>
+            </nav>
+           
+            <a class="popup__link header__popup-link" href="#popup2"><img class="header__burger" src="images/burger.svg" alt="Menu button"></a>
+        </header>
+        <main class="main">
+            <section class="slider">
+                <div class="slider__left slider__arr"></div>
+                <div class="slider__content">
+                    <h1 class="slider__title">H1  text</h1>
+                   <a class="popup__link" href="#popup1"><div class="button">Open pop-up button</div></a>
+                </div>
+                
+                <div class="slider__right slider__arr"></div>
+
+            </section>
+            <section class="content">
+                <h2 class="content__title">H2 text</h2>
+                <div class="content__frames">
+                    <div class="content__frame content__frame-one"></div>
+                    <div class="content__frame content__frame-two"></div>
+                    <div class="content__frame content__frame-three"></div>
+                    <div class="content__frame content__frame-four"></div>
+                    
+                </div>
+            </section>
+
+            <section class="blocks">
+                <h2 class="blocks__title">H2 text</h2>
+                <div class="blocks__frames">
+                    <div class="blocks__column"> <div class="blocks__frame"></div></div>
+                   
+                    <div class="blocks__column"> <div class="blocks__frame"></div></div>
+                   
+                    <div class="blocks__column"> <div class="blocks__frame"></div></div>
+                   
+                    <div class="blocks__column"><div class="blocks__frame"></div></div>
+                    
+                    <div class="blocks__column"><div class="blocks__frame"></div></div>
+                    
+                </div>
+            </section>
+
+            <section class="openButton">
+                <h2 class="openButton__title">Text utp</h2>
+                <a class="popup__link popups__close" href="#popup1"><div class="button">Open pop-up button</div></a>
+            </section>
+
+        </main>
+        <footer class="footer">
+
+            <nav class="footer__links">
+                <a class="footer__link" href="">Text</a>
+                <a class="footer__link" href="">Text</a>
+                <a class="footer__link" href="">Text</a>
+                <a class="footer__link" href="">Text</a>
+            </nav>
+        </footer>
+        <div id="popup1" class="overlay">
+            <div class="popup">
+                <h2 class="popup__title">Pop-up</h2>
+                <a class="popup__close" href="#">&times;</a>
+            </div>
+        </div>
+        <div id="popup2" class="overlay">
+            <a class="popup__close popups__close" href="#"><img class="popup2__close" src="images/close.svg" alt=""></a>
+            <div class="popup__nav">
+                <nav class="popup__nav-links">
+                    <a class="popup__nav-link">Text</a>
+                    <a class="popup__nav-link">Text</a>
+                    <a class="popup__nav-link">Text</a>
+                    <a class="popup__nav-link">Text</a>
+                </nav>
+                
+                <a class="popup__link popup__link-botton popups__close" href="#popup1"><div class="button">Open pop-up button</div></a>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
